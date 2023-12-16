@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-02T15:58:31 IST" name="Gradle suite" finished-at="2023-12-02T15:58:47 IST" duration-ms="15271">
+    <groups>
+      <group name="API Tests">
+        <method signature="testCase_API_01.userlogin()[pri:0, instance:qtriptest.APITests.testCase_API_01@4f80542f]" name="userlogin" class="qtriptest.APITests.testCase_API_01"/>
+        <method signature="testCase_API_02.searchCity()[pri:0, instance:qtriptest.APITests.testCase_API_02@4d5650ae]" name="searchCity" class="qtriptest.APITests.testCase_API_02"/>
+        <method signature="testCase_API_03.registerPost()[pri:0, instance:qtriptest.APITests.testCase_API_03@a38c7fe]" name="registerPost" class="qtriptest.APITests.testCase_API_03"/>
+        <method signature="testCase_API_04.invalidRegistration()[pri:0, instance:qtriptest.APITests.testCase_API_04@6fdbe764]" name="invalidRegistration" class="qtriptest.APITests.testCase_API_04"/>
+      </group> <!-- API Tests -->
+    </groups>
+    <test started-at="2023-12-02T15:58:31 IST" name="Gradle test" finished-at="2023-12-02T15:58:47 IST" duration-ms="15271">
+      <class name="qtriptest.APITests.testCase_API_01">
+        <test-method signature="userlogin()[pri:0, instance:qtriptest.APITests.testCase_API_01@4f80542f]" started-at="2023-12-02T15:58:31 IST" name="userlogin" finished-at="2023-12-02T15:58:36 IST" duration-ms="5062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+      </class> <!-- qtriptest.APITests.testCase_API_01 -->
+      <class name="qtriptest.APITests.testCase_API_02">
+        <test-method signature="searchCity()[pri:0, instance:qtriptest.APITests.testCase_API_02@4d5650ae]" started-at="2023-12-02T15:58:36 IST" name="searchCity" finished-at="2023-12-02T15:58:38 IST" duration-ms="2034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCity -->
+      </class> <!-- qtriptest.APITests.testCase_API_02 -->
+      <class name="qtriptest.APITests.testCase_API_03">
+        <test-method signature="registerPost()[pri:0, instance:qtriptest.APITests.testCase_API_03@a38c7fe]" started-at="2023-12-02T15:58:38 IST" name="registerPost" finished-at="2023-12-02T15:58:44 IST" duration-ms="5419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPost -->
+      </class> <!-- qtriptest.APITests.testCase_API_03 -->
+      <class name="qtriptest.APITests.testCase_API_04">
+        <test-method signature="invalidRegistration()[pri:0, instance:qtriptest.APITests.testCase_API_04@6fdbe764]" started-at="2023-12-02T15:58:44 IST" name="invalidRegistration" finished-at="2023-12-02T15:58:47 IST" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegistration -->
+      </class> <!-- qtriptest.APITests.testCase_API_04 -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>
